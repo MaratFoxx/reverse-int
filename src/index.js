@@ -1,4 +1,4 @@
 module.exports = function reverse (n) {
-    let a = String(n)
+    let rever = String(n)
     return parseInt(a.split("").reverse().join(""))
 }
